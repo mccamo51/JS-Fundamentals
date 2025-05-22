@@ -4,6 +4,6 @@ if (argv[2] === undefined) {
   console.log("No argument");
 }
 
-if (argv.length == 3) {
+if (argv[2] !== undefined) {
   console.log(argv[2]);
 }
