@@ -6,7 +6,7 @@ const arrayList = ["C is fun", "Python is cool", "JavaScript is amazing"]
 
 
 
-let x = 3;
+let x = 0;
 while (x < arrayList.length) {
     console.log(arrayList[x]);
     x++;
