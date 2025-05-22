@@ -9,12 +9,10 @@ if (argv[2] === undefined) {
 if (argv.length == 3) {
   const number = parseInt(argv[2]);
 
-  if (number.toString() === "NaN") {
-    console.log("Not a number");
-  } else {
+
     while (x < number) {
       console.log("C is fun");
       x++;
     }
-  }
+
 }
